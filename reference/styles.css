@@ -1,12 +1,11 @@
+/* title */
 /* list of games */
-figure {
-  margin: 0, 10px;
-}
 figure a.game_title {
   color: rgb(0, 120, 0);
 }
 figure a:hover {
   color: burlywood;
+  text-decoration: none;
 }
 figure .score {
   font-weight: bold;

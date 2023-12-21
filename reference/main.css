@@ -1,1 +1,13 @@
-/*# sourceMappingURL=main.css.map */
+/* title */
+/* list of games */
+figure a.game_title {
+  color: rgb(0, 120, 0);
+}
+figure a:hover {
+  color: burlywood;
+  text-decoration: none;
+}
+figure .score {
+  font-weight: bold;
+  color: rgb(255, 127, 0);
+}/*# sourceMappingURL=main.css.map */
