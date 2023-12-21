@@ -12,12 +12,26 @@
   </head>
   <body>
     <main>
-      <!-- <img src="image/gaming-banner-background-kokmp2khkq2klc07.jpg" alt="gaming-banner-background" width="100%" height="100px"> -->
-
-      <div class="title display-4 fw-bold text-dark mb-3 pt-2 pb-3 text-center">Best Video Games of 2023
+      <div class="header-background mb-1">
+        <img src="image/gaming-banner-background-kokmp2khkq2klc07.jpg" alt="gaming-banner-background" width="100%" height="300px">
       </div>
+      
+      <p class="title display-4 fw-bold text-dark my-3 text-center">Best Video Games of 2023
+      </p>
+      <figure class="text-center">
+        <blockquote class="blockquote">“Creativity takes courage.”</blockquote>
+        <figcaption class="blockquote-footer">Henri Matisse</figcaption>
+      </figure>
 
-      <section class="text-dark d-flex">
+      <ul class="list-inline m-4 py-2">
+        <li class="option list-inline-item"><a href="#" class="px-3 py-2">first</a></li>
+        <li class="option list-inline-item"><a href="#" class="px-3 py-2">second</a></li>
+        <li class="option list-inline-item"><a href="#" class="px-3 py-2">then</a></li>
+        <li class="option list-inline-item"><a href="#" class="px-3 py-2">after that</a></li>
+        <li class="option list-inline-item"><a href="#" class="px-3 py-2">finally</a></li>
+      </ul>
+      
+      <section class="text-dark d-flex" id="first">
         <p class="container bg-primary-subtle lh-sm">The core function of CSS is to enable browsers to style HTML elements. CSS does this by assigning specific values to properties, such as the background, color, font size, margin, padding, and more.</p>
         <p class="container-sm bg-success-subtle lh-sm">The core function of CSS is to enable browsers to style HTML elements. CSS does this by assigning specific values to properties, such as the background, color, font size, margin, padding, and more.</p>
         <p class="container-md bg-warning-subtle lh-sm">The core function of CSS is to enable browsers to style HTML elements. CSS does this by assigning specific values to properties, such as the background, color, font size, margin, padding, and more.</p>
@@ -27,113 +41,126 @@
         <p class="container-fluid bg-light-subtle lh-sm">The core function of CSS is to enable browsers to style HTML elements. CSS does this by assigning specific values to properties, such as the background, color, font size, margin, padding, and more.</p>
       </section>
       
-      <section class="d-flex mx-3 my-3">
+      <section class="d-flex mx-3 my-3" id="second">
         <figure class="col-3" >
-          <img src="image/homepage/Baldur's Gate 3.avif" alt="Baldur's Gate 3" width="300px" class="container">
+          <img src="image/homepage/Baldur's Gate 3.jpg" alt="Baldur's Gate 3" class="container">
           <figcaption class="mx-3">
-            <a href="https://baldursgate3.game/" target="_blank" class="game_title">Baldur's Gate 3</a>
-            <p class="score">Score: 96</p>
+            <a href="https://baldursgate3.game/" target="_blank" class="game_title d-block">Baldur's Gate 3</a>
+            <div class="d-inline">Score: <span class="score">96</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.5</span></div>
           </figcaption>
         </figure>
 
         <figure class="col-3" >
-          <img src="image/homepage/The Legend of Zelda Tears of the Kingdom.webp" alt="The Legend of Zelda Tears of the Kingdom" width="300px" class="container">
+          <img src="image/homepage/The Legend of Zelda Tears of the Kingdom.jpg" alt="The Legend of Zelda Tears of the Kingdom" class="container">
           <figcaption class="mx-3">
-            <a href="https://zelda.nintendo.com/tears-of-the-kingdom/" target="_blank" class="game_title">The Legend of Zelda Tears of the Kingdom</a>
-            <p class="score">Score: 96</p>
+            <a href="https://zelda.nintendo.com/tears-of-the-kingdom/" target="_blank" class="game_title d-block d-block">The Legend of Zelda Tears of the Kingdom</a>
+            <div class="d-inline">Score: <span class="score">96</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.7</span></div>
           </figcaption>
         </figure>
 
         <figure class="col-3">
-          <img src="image/homepage/Metroid Prime Remastered.avif" alt="Metroid Prime (Remastered)" width="300px" class="container">
+          <img src="image/homepage/Metroid Prime Remastered.avif" alt="Metroid Prime (Remastered)" class="container">
           <figcaption class="mx-3">
-            <a href="https://metroid.nintendo.com/" target="_blank" class="game_title">Metroid Prime (Remastered)</a>
-            <p class="score">Score: 94</p>
+            <a href="https://metroid.nintendo.com/" target="_blank" class="game_title d-block">Metroid Prime (Remastered)</a>
+            <div class="d-inline">Score: <span class="score">94</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.3</span></div>
           </figcaption>
         </figure>
 
         <figure class="col-3" >
-          <img src="image/homepage/Asgard's Wrath 2.png" alt="Asgard's Wrath 2" width="300px" class="container">
+          <img src="image/homepage/Asgard's Wrath 2.png" alt="Asgard's Wrath 2" class="container">
           <figcaption class="mx-3">
-            <a href="https://www.meta.com/quest/asgards-wrath-2/" target="_blank" class="game_title">Asgard's Wrath 2</a>
-            <p class="score">Score: 93</p>
+            <a href="https://www.meta.com/quest/asgards-wrath-2/" target="_blank" class="game_title d-block">Asgard's Wrath 2</a>
+            <div class="d-inline">Score: <span class="score">93</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.7</span></div>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="d-flex mx-3 my-3" id="third">
+        <figure class="col-3">
+          <img src="image/homepage/Against The Storm.jpg" alt="Against The Storm" class="container">
+          <figcaption class="mx-3">
+            <a href="https://store.steampowered.com/app/1336490/Against_the_Storm/" target="_blank" class="game_title d-block">Against The Storm</a>
+            <div class="d-inline">Score: <span class="score">92</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.7</span></div>
+          </figcaption>
+        </figure>
+
+        <figure class="col-3">
+          <img src="image/homepage/Resident Evil 4 (2023).webp" alt="Resident Evil 4" class="container">
+          <figcaption class="mx-3">
+            <a href="https://www.residentevil.com/4/" target="_blank" class="game_title d-block">Resident Evil 4</a>
+            <div class="d-inline">Score: <span class="score">92</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.5</span></div>
+          </figcaption>
+        </figure>
+
+        <figure class="col-3">
+          <img src="image/homepage/Tents and Trees.avif" alt="Tents and Trees" class="container">
+          <figcaption class="mx-3">
+            <a href="https://www.nintendo.com/us/store/products/tents-and-trees-switch/" target="_blank" class="game_title d-block">Tents and Trees</a>
+            <div class="d-inline">Score: <span class="score">92</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.7</span></div>
+          </figcaption>
+        </figure>
+
+        <figure class="col-3">
+          <img src="image/homepage/Street Fighter 6.webp" alt="Street Fighter 6" class="container">
+          <figcaption class="mx-3">
+            <a href="https://www.streetfighter.com/6/en-us" target="_blank" class="game_title d-block">Street Fighter 6</a>
+            <div class="d-inline">Score: <span class="score">92</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.4</span></div>
           </figcaption>
         </figure>
       </section>
 
       <section class="d-flex mx-3 my-3">
         <figure class="col-3">
-          <img src="image/homepage/Against The Storm.jpg" alt="Against The Storm" width="300px" class="container">
+          <img src="image/homepage/Super Mario Bros. Wonder.jpg" alt="Super Mario Bros. Wonder" class="container">
           <figcaption class="mx-3">
-            <a href="https://store.steampowered.com/app/1336490/Against_the_Storm/" target="_blank" class="game_title">Against The Storm</a>
-            <p class="score">Score: 92</p>
+            <a href="https://supermariobroswonder.nintendo.com/" target="_blank" class="game_title d-block">Super Mario Bros. Wonder</a>
+            <div class="d-inline">Score: <span class="score">91</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.7</span></div>
           </figcaption>
         </figure>
 
         <figure class="col-3">
-          <img src="image/homepage/Resident Evil 4 (2023).webp" alt="Resident Evil 4" width="300px" class="container">
+          <img src="image/homepage/Turbo Overkill.jpg" alt="Turbo Overkill" class="container">
           <figcaption class="mx-3">
-            <a href="https://www.residentevil.com/4/" target="_blank" class="game_title">Resident Evil 4</a>
-            <p class="score">Score: 92</p>
+            <a href="https://store.steampowered.com/app/1328350/Turbo_Overkill/" target="_blank" class="game_title d-block">Turbo Overkill</a>
+            <div class="d-inline">Score: <span class="score">91</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.1</span></div>
           </figcaption>
         </figure>
 
         <figure class="col-3">
-          <img src="image/homepage/Tents and Trees.avif" alt="Tents and Trees" width="300px" class="container">
+          <img src="image/homepage/Marvel's Spider-Man 2.webp" alt="Marvel's Spider-Man 2" class="container">
           <figcaption class="mx-3">
-            <a href="https://www.nintendo.com/us/store/products/tents-and-trees-switch/" target="_blank" class="game_title">Tents and Trees</a>
-            <p class="score">Score: 92</p>
-          </figcaption>
-        </figure>
-
-        <figure class="col-3">
-          <img src="image/homepage/Street Fighter 6.jpg" alt="Street Fighter 6" width="300px" class="container">
-          <figcaption class="mx-3">
-            <a href="https://www.streetfighter.com/6/en-us" target="_blank" class="game_title">Street Fighter 6</a>
-            <p class="score">Score: 92</p>
-          </figcaption>
-        </figure>
-      </section>
-
-      <section class="d-flex mx-3 my-3">
-        <figure class="col-3">
-          <img src="image/homepage/Super Mario Bros. Wonder.jpg" alt="Super Mario Bros. Wonder" width="300px" class="container">
-          <figcaption class="mx-3">
-            <a href="https://supermariobroswonder.nintendo.com/" target="_blank" class="game_title">Super Mario Bros. Wonder</a>
-            <p class="score">Score: 91</p>
-          </figcaption>
-        </figure>
-
-        <figure class="col-3">
-          <img src="image/homepage/Turbo Overkill.jpg" alt="Turbo Overkill" width="300px" class="container">
-          <figcaption class="mx-3">
-            <a href="https://store.steampowered.com/app/1328350/Turbo_Overkill/" target="_blank" class="game_title">Turbo Overkill</a>
-            <p class="score">Score: 91</p>
-          </figcaption>
-        </figure>
-
-        <figure class="col-3">
-          <img src="image/homepage/Marvel's Spider-Man 2.webp" alt="Marvel's Spider-Man 2" width="300px" class="container">
-          <figcaption class="mx-3">
-            <a href="https://www.playstation.com/en-us/games/marvels-spider-man-2/" target="_blank" class="game_title">Marvel's Spider-Man 2
+            <a href="https://www.playstation.com/en-us/games/marvels-spider-man-2/" target="_blank" class="game_title d-block">Marvel's Spider-Man 2
             </a>
-            <p class="score">Score: 90</p>
+            <div class="d-inline">Score: <span class="score">90</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.8</span></div>
           </figcaption>
         </figure>
 
         <figure class="col-3">
-          <img src="image/homepage/Xenoblade Chronicles 3 Future Redeemed.webp" alt="Xenoblade Chronicles 3 Future Redeemed" width="300px" class="container">
+          <img src="image/homepage/Xenoblade Chronicles 3 Future Redeemed.webp" alt="Xenoblade Chronicles 3 Future Redeemed" class="container">
           <figcaption class="mx-3">
-            <a href="https://xenoblade.fandom.com/wiki/Xenoblade_Chronicles_3:_Future_Redeemed" target="_blank" class="game_title">Street Fighter 6</a>
-            <p class="score">Score: 90</p>
+            <a href="https://xenoblade.fandom.com/wiki/Xenoblade_Chronicles_3:_Future_Redeemed" target="_blank" class="game_title d-block">Xenoblade Chronicles 3: Future Redeemed</a>
+            <div class="d-inline">Score: <span class="score">90</span></div>
+            <div class="d-inline ms-3">Review: <span class="review">4.2</span></div>
           </figcaption>
         </figure>
       </section>
 
-      <br>
-      <a href="https://nodejs.org/en" target="_blank" class="link-success link-opacity-50-hover link-underline-opacity-0-hover"  style="margin-left: 20px;">Bootstrap 5 Color Rules</a>
-      <br>
-    </main>
+
+  <footer class="text-center mb-3">
+    Information Assymetry Inc.@2023, all rights reserved.
+  </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
