@@ -42,4 +42,15 @@ figure .score {
 figure .review {
   font-weight: bold;
   color: rgb(255, 50, 50);
+}
+
+table td .frontend {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+}
+table td .backend {
+  color: purple;
+  font-weight: bold;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
