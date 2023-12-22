@@ -1,4 +1,5 @@
 $enable-grid-classes: false;
 $enable-cssgrid: true;
 
-@import './styles.scss'
+@import './styles';
+@import './mixin';

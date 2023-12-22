@@ -1,3 +1,5 @@
+@import './mixin';
+
 /* title */
 ul {
     background-color: rgb(230, 230, 230);
@@ -24,47 +26,33 @@ ul {
 
 
 /* list of games */
-figure {
-    .blockquote {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: rgb(110, 145, 0);
-    }
-    .blockquote-footer{
-        font-size: 1rem;
-        font-weight: bold;
-        color: rgb(168, 75, 255);
-    }
-    a.game_title {
-            color:  rgb(0, 120, 0);
+
+    figure {
+        .blockquote {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: rgb(110, 145, 0);
         }
-    a:hover {
-        color: burlywood;
-        text-decoration: none;
+        .blockquote-footer{
+            font-size: 1rem;
+            font-weight: bold;
+            color: rgb(168, 75, 255);
+        }
+        a.game_title {
+            color:  rgb(0, 120, 0);
+            }
+        a:hover {
+            color: burlywood;
+            text-decoration: none;
+        }
+    
+        .score {
+            font-weight: bold;
+            color: rgb(255, 127, 0);
+        }
+        .review {
+            font-weight: bold;
+            color: rgb(255, 50, 50);
+        }
     }
 
-    .score {
-        font-weight: bold;
-        color: rgb(255, 127, 0);
-    }
-    .review {
-        font-weight: bold;
-        color: rgb(255, 50, 50);
-    }
-}
-
-// table styles
-// table {
-//     td {
-//         .frontend {
-//             color: green;
-//             font-weight: bold;
-//             text-decoration: underline;
-//         }
-//         .backend {
-//             color: purple;
-//             font-weight: bold;
-//             text-decoration: underline;
-//         }
-//     }
-// }
