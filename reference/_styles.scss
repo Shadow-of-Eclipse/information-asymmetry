@@ -10,16 +10,17 @@ ul {
             font-size: 1.2rem;
             text-decoration: none;
         }
+        a.navbar_active {
+            @include navbar_active;
+        }
         a:hover {
             color: aliceblue;
             background-color: chocolate;
+            border-radius: 10px;
         }
-    }
-}
-
-.navbar{
-    a:hover {
-    background-color: rgb(220, 220, 220);
+        a:active {
+            color: black;
+        }
     }
 }
 
@@ -28,6 +29,9 @@ ul {
 /* list of games */
 
     figure {
+
+        // section of motto
+
         .blockquote {
             font-size: 1.5rem;
             font-weight: bold;
@@ -38,6 +42,9 @@ ul {
             font-weight: bold;
             color: rgb(168, 75, 255);
         }
+
+        // section of games
+
         a.game_title {
             color:  rgb(0, 120, 0);
             }

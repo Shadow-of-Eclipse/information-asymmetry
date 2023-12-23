@@ -8,13 +8,17 @@ ul li a.navbar {
   font-size: 1.2rem;
   text-decoration: none;
 }
+ul li a.navbar_active {
+  color: rgb(80, 80, 255);
+  text-decoration: underline;
+}
 ul li a:hover {
   color: aliceblue;
   background-color: chocolate;
+  border-radius: 10px;
 }
-
-.navbar a:hover {
-  background-color: rgb(220, 220, 220);
+ul li a:active {
+  color: black;
 }
 
 /* list of games */

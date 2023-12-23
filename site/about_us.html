@@ -10,22 +10,26 @@
 
     <title>Bootstrap 5 Site</title>
   </head>
-  <body class="mx-3">
+  <body class="mx-2">
     <main>
       <div class="header-background mb-1">
         <img src="../image/gaming-banner-background-kokmp2khkq2klc07.jpg" alt="gaming-banner-background" width="100%" height="300px">
       </div>
       
-      <p class="title display-4 fw-bold text-dark my-3 text-center">Best Video Games of 2023
-      </p>
-      <figure class="text-center">
-        <blockquote class="blockquote">“Creativity takes courage.”</blockquote>
-        <figcaption class="blockquote-footer">Henri Matisse</figcaption>
-      </figure>
+      <div class="title display-4 fw-bold text-dark text-center">
+        <p>Best Video Games of 2023
+        </p>
+        <figure class="text-center">
+          <blockquote class="blockquote my-4">“Creativity takes courage.”</blockquote>
+          <figcaption class="blockquote-footer">Henri Matisse</figcaption>
+        </figure>
+      </div>
+
+      <hr class="border-2 text-info-emphasis">
 
       <ul class="list-inline my-4 py-1 text-center" width="100%">
         <li class="option list-inline-item"><a href="index.html" class="navbar px-3 py-2">Home</a></li>
-        <li class="option list-inline-item"><a href="about_us.html" class="navbar px-3 py-2">About Us</a></li>
+        <li class="option list-inline-item"><a href="about_us.html" class="navbar px-3 py-2 navbar_active">About Us</a></li>
         <li class="option list-inline-item"><a href="catalog.html" class="navbar px-3 py-2">Catalog</a></li>
         <li class="option list-inline-item"><a href="return_policy.html" class="navbar px-3 py-2">Return Policy</a></li>
         <li class="option list-inline-item"><a href="Contact_Us.html" class="navbar px-3 py-2">Contact Us</a></li>
@@ -117,7 +121,7 @@
         </figure>
       </section>
 
-      <section class="d-flex my-3">
+      <section class="d-flex mt-3">
         <figure class="col-3">
           <img src="../image/homepage/Super Mario Bros. Wonder.jpg" alt="Super Mario Bros. Wonder" class="container">
           <figcaption class="mx-3">
@@ -157,8 +161,57 @@
       </section>
     </main>
 
+    <aside>
+      <table class="container border-success-subtle text-center table table-light table-striped-columns mt-1">
+        <h4 class="text-center">Website Design Skills Checklist</h4>
+        <thead>
+            <th class="text-primary fw-bold">Language</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>Javascript</th>
+            <th>Bootstrap</th>
+            <th>Vue/React</th>
+            <th>PHP</th>
+            <th>Ruby on Rails</th>
+        </thead>
+        <tbody class="mx-4">
+            <tr>
+                <td class="text-primary fw-bold">Type</td>
+                <td class="text-success-emphasis fw-semibold">Front End</td>
+                <td class="text-success-emphasis fw-semibold">Front End</td>
+                <td class="text-success-emphasis fw-semibold">Front End</td>
+                <td class="text-success-emphasis fw-semibold">Front End</td>
+                <td class="text-warning-emphasis fw-semibold">Back End</td>
+                <td class="text-warning-emphasis fw-semibold">Back End</td>
+                <td class="text-warning-emphasis fw-semibold">Back End</td>
+            </tr>
+            <tr>
+                <td class="text-primary fw-bold">Difficulty</td>
+                <td>Easy</td>
+                <td>Medium to Hard</td>
+                <td>Hard</td>
+                <td>Easy to Medium</td>
+                <td>Hard</td>
+                <td>Medium</td>
+                <td>Hard</td>
+            </tr>
+            <tr>
+              <td class="text-primary fw-bold">Learning Time</td>
+              <td>2 weeks</td>
+              <td>2-3 weeks</td>
+              <td>1 month</td>
+              <td>2-3 weeks</td>
+              <td>2+ month?</td>
+              <td>1-2 month</td>
+              <td>2+ month?</td>
+          </tr>
+        </tbody>
+      </table>
+    </aside>
 
-  <footer class="text-center mb-3">
+    <br>
+
+  <footer class="text-center mb-4">
     Information Assymetry Inc.@2023, all rights reserved.
   </footer>
 

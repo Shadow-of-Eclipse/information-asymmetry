@@ -1,3 +1,4 @@
-@mixin section-divider {
-    margin-top: 500px;
+@mixin navbar_active {
+    color: rgb(80, 80, 255);
+    text-decoration: underline;
 }
