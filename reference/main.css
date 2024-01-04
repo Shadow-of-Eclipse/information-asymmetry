@@ -33,6 +33,9 @@ figure .blockquote-footer {
   font-weight: bold;
   color: rgb(168, 75, 255);
 }
+figure .game_catalog figcaption .catalog_caption {
+  margin-left: 50px;
+}
 figure a.game_title {
   color: rgb(0, 120, 0);
 }
@@ -47,4 +50,13 @@ figure .score {
 figure .review {
   font-weight: bold;
   color: rgb(255, 50, 50);
+}
+
+footer div.credit-cards {
+  display: block;
+  margin-bottom: 20px;
+}
+footer div.rights-reserved {
+  display: block;
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */
