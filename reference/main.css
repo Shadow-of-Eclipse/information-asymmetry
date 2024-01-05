@@ -33,9 +33,6 @@ figure .blockquote-footer {
   font-weight: bold;
   color: rgb(168, 75, 255);
 }
-figure .game_catalog figcaption .catalog_caption {
-  margin-left: 50px;
-}
 figure a.game_title {
   color: rgb(0, 120, 0);
 }
