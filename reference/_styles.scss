@@ -7,7 +7,7 @@ ul {
         a.navbar {
            @include navbar_appearance; 
         }
-        a.navbar_currentpage {
+        a.currentpage {
             @include navbar_currentpage;
         }
         a:hover {

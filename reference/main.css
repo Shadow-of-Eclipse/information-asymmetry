@@ -8,7 +8,7 @@ ul li a.navbar {
   font-size: 1.2rem;
   text-decoration: none;
 }
-ul li a.navbar_currentpage {
+ul li a.currentpage {
   color: rgb(80, 80, 255);
   text-decoration: underline;
 }
