@@ -1,8 +1,8 @@
 @import './mixin';
 
 
-/* title */
-ul {
+// navigation bar
+ul.navigation-bar {
     background-color: rgb(230, 230, 230);
     li {
         a.navbar {
@@ -22,7 +22,7 @@ ul {
 
 
 
-/* list of games */
+    // list of games   
 
     figure {
 
@@ -57,6 +57,26 @@ ul {
         .review {
             font-weight: bold;
             color: rgb(255, 50, 50);
+        }
+    }
+
+    // company culture and core values
+
+    section.culture_and_values {
+        p {
+            line-height: 2em;
+        }
+        span.company-name {
+            font-weight: bolder;
+            color: rgb(200, 170, 0);
+            text-decoration: underline;
+        }
+    
+        ul.company-culture {
+            li {
+                list-style-type: none;
+                line-height: 2em;
+            }
         }
     }
 
