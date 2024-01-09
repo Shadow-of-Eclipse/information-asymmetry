@@ -80,6 +80,17 @@ ul.navigation-bar {
         }
     }
 
+    // contact info
+
+    section {
+        p.contact_info {
+            line-height: 1.5em;
+        }
+        :last-child {
+            margin-bottom: 20px;
+        }
+    }
+
     //footer
 
  footer {
