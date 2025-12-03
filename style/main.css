@@ -63,9 +63,6 @@ section.culture_and_values ul.company-culture li {
 section p.contact_info {
   line-height: 1.5em;
 }
-section :last-child {
-  margin-bottom: 20px;
-}
 
 footer div.credit-cards {
   display: block;
