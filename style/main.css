@@ -31,18 +31,19 @@ figure .blockquote-footer {
   font-weight: bold;
   color: rgb(168, 75, 255);
 }
-figure a.game_title {
+
+section a.game_title {
   color: rgb(0, 120, 0);
 }
-figure a:hover {
+section a:hover {
   color: burlywood;
   text-decoration: none;
 }
-figure .score {
+section .score {
   font-weight: bold;
   color: rgb(255, 127, 0);
 }
-figure .review {
+section .review {
   font-weight: bold;
   color: rgb(255, 50, 50);
 }
